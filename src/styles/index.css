@@ -1,0 +1,47 @@
+/* Importing Partials CSS */
+@import url("./partials/__partials.css");
+
+/* Importing Components CSS */
+@import url("./components/Home.css");
+@import url("./components/Error.css");
+
+/* Overriding Global CSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  color: black;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  /* background-color: #f3f3f1; */
+
+  /* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Custom Classes */
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
